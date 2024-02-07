@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC Pokemon Search App Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Pokémon Search App</h1>
+        </header>
+        <figure class="phone" aria-label="app content">
+            <form>
+                <fieldset>
+                    <label for="search-input">Pokémon or ID: <input type="text" id="search-input" required></label>
+                    <button id="search-button">Search</button>
+                </fieldset>
+            </form>
+            <figure id="display" class="output" aria-label="results display">
+                <span id="pokemon-name"></span>
+                <span id="pokemon-id"></span>
+                <span id="weight"></span>
+                <span id="height"></span>
+            </figure>
+            <figcaption id="types"></figcaption>
+
+            <dl>
+                <dt>Base</dt>
+                <dd>Stats</dd>
+                <dt>HP:</dt>
+                <dd id="hp"></dd>
+                <dt>Attack:</dt>
+                <dd id="attack"></dd>
+                <dt>Defense:</dt>
+                <dd id="defense"></dd>
+                <dt>Sp Attack:</dt>
+                <dd id="special-attack"></dd>
+                <dt>Sp Defense:</dt>
+                <dd id="special-defense"></dd>
+                <dt>Speed:</dt>
+                <dd id="speed"></dd>
+            </dl>
+        </figure>
+    </main>
+</body>
+
+</html>
